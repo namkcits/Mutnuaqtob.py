@@ -1,12 +1,5 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
-import numpy as np
-import tensorflow as tf
-import tensorflow_quantum as tfq
-import cirq
-import sympy
-import streamlit as st
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3
 
 # Create a simple QNN circuit
 def create_qnn_circuit(qubits, params):
