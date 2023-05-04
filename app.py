@@ -2,10 +2,6 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 import numpy as np
-import from sklearn import datasets
-import from sklearn.model_selection import train_test_split
-import from sklearn.preprocessing import StandardScaler
-import from sklearn.metrics import accuracy_score
 import tensorflow as tf
 import tensorflow_quantum as tfq
 import cirq
