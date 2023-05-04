@@ -1,4 +1,6 @@
-import numpy as np
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+Import numpy as np
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
