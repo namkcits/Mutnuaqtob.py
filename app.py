@@ -1,5 +1,5 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3,
 
 # Create a simple QNN circuit
 def create_qnn_circuit(qubits, params):
