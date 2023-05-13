@@ -1,2 +1,3 @@
-import cirq
-!pip install cirq 
+pip install cirq
+
+ 
